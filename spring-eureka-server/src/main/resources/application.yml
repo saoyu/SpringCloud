@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: eureka-server
+server:
+  port: 9000
+eureka:
+  client:
+    serviceUrl:
+      defalutZone: http://localhost:9000/eureka/
+    fetchRegistry: false
+    registerWithEureka: false
